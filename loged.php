@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	echo 'user:'.$_SESSION['username'].'is logged in!';
+	echo 'user:'.$_SESSION['username'].'is logged in!';		
 	if(isset($_POST['submit']))
 	{
 		$home_url='LogOut.php';
